@@ -11,14 +11,16 @@ npm i node-auto-fit -D
 ```
 
 ## Usage
-### Create the .nvmrc file
+### 1. NVM
+First, you need to install nvm to manage Node versions.
+### 2. Create the .nvmrc file
 In the root directory of the project, create a file named .nvmrc and write the desired Node.js version in it, for example 18.0.0.
 
 ```bash
 echo "18.0.0" > .nvmrc
 ```
 
-### Edit the package.json file
+### 3. Edit the package.json file
 Find the package.json file and add the serve command in the scripts object like this:
 ```json
 "scripts": {
@@ -28,7 +30,7 @@ Find the package.json file and add the serve command in the scripts object like 
   },
 ```
 
-### Final File Structure Example
+## Final File Structure Example
 - Root Directory
   - .nvmrc
   - package.json
