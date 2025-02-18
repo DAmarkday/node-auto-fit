@@ -54,4 +54,4 @@ After completing these steps, both the .nvmrc and package.json will be correctly
 # FAQ
 Q: When the Node version specified in the .nvmrc file does not exist, nvm will run the project using the current Node version.  <a href="https://github.com/coreybutler/nvm-windows/issues/1068#issuecomment-2030246717">issue</a>
 
-A: due to the current version of nvm not addressing this issue, this project will wait for the PR to be merged in order to fix this bug. <a href="https://github.com/coreybutler/nvm-windows/pull/1071">pr</a>
+A: Due to the current version of nvm not addressing this issue, this project will wait for the PR to be merged in order to fix this bug. <a href="https://github.com/coreybutler/nvm-windows/pull/1071">pr</a>
