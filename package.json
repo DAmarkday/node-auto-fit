@@ -1,0 +1,20 @@
+{
+  "name": "node-auto-fit",
+  "version": "1.0.0",
+  "description": "This script can automatically switch the Node.js version in the dev environment,eliminating the need for manual switching with nvm.",
+  "main": "index.cjs",
+  "author": "damarkday", 
+  "keywords": ["node", "vue", "react","script", "utils","tools","nodejs","frontend","node-auto-fit"], 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DAmarkday/node-auto-fit"
+  },
+  "bugs": "https://github.com/DAmarkday/node-auto-fit/issues",
+  "bin":{
+    "auto-node-fit":"./index.cjs"
+  },
+  "license": "MIT"
+}
