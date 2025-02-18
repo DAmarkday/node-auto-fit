@@ -33,7 +33,7 @@ Find the package.json file and add the serve command in the scripts object like 
   - package.json
 
 Contents of the .nvmrc file:
-```json
+```js
 18.0.0
 ```
 Example part of the package.json file:
@@ -46,9 +46,6 @@ Example part of the package.json file:
     "start": "node-auto-fit && vite",
     "build": "node-auto-fit && vite build",
   },
-  "dependencies": {
-    // dependencies...
-  }
 }
 ```
 After completing these steps, both the .nvmrc and package.json will be correctly configured, allowing you to use nvm to manage the Node.js version and run scripts.
